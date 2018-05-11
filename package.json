@@ -1,0 +1,34 @@
+{
+  "name": "create-reprocessing-app",
+  "version": "1.0.0",
+  "description": "Easly create reprocessing app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "templates/",
+    "index.js"
+  ],
+  "bin": {
+    "create-reprocessing-app": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtoso/create-reprocessing-app.git"
+  },
+  "keywords": [
+    "reprocessing",
+    "reasonml",
+    "processing"
+  ],
+  "author": "Mattia Toso <mattia.toso@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mtoso/create-reprocessing-app/issues"
+  },
+  "homepage": "https://github.com/mtoso/create-reprocessing-app#readme",
+  "dependencies": {
+    "hygen": "^1.5.9"
+  }
+}

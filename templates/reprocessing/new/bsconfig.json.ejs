@@ -1,0 +1,19 @@
+---
+to: <%= appName.toLowerCase() %>/bsconfig.json
+---
+{
+  "name": "<%= appName.toLowerCase() %>",
+  "sources": "src",
+  "bs-dependencies": ["Reprocessing"],
+  "entries": [{
+    "backend": "bytecode",
+    "main-module": "IndexHot"
+  },{
+    "backend": "native",
+    "main-module": "Index"
+  },{
+    "backend": "js",
+    "main-module": "Index"
+  }],
+  "refmt": 3,
+}
